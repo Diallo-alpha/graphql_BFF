@@ -52,7 +52,7 @@ app.use('/graphql', graphqlHTTP({
 }));
 
 app.get('/', (req, res) => {
-    res.send("Copy the URL from the address-bar, to paste in Postman to use GraphQL")
+    res.send("aller dans votre navigateur et accédez à /graphql localhost:4000")
   })
   
 app.listen(4000, () => console.log('Express GraphQL Server Now Running On port 4000/graphql'));
